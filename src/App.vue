@@ -6,18 +6,20 @@
     >
     </v-app-bar>
     <v-content>
-      <checkout/>
+      <autocomplete/>
     </v-content>
     
   </v-app>
 </template>
 
 <script>
-import checkout from './components/checkout'
+import  autocomplete from './components/autocomplete'
+//import checkout from './components/checkout'
 export default {
   name:'App',
 components:{
-  checkout
+  //checkout,
+  autocomplete
 }
 }
 </script>
